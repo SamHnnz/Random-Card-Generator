@@ -1,1 +1,58 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: green;
+  font-family: "Lora", serif;
+}
+
+.card-heart {
+  background-color: white;
+  width: 25%;
+  height: 75vh;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 5%;
+  border: 2px solid black;
+  box-shadow: 10px 10px 30px black;
+}
+
+.Top h1 {
+  height: 20%;
+  font-size: 12rem;
+  margin-left: 7%;
+}
+.Number {
+  height: 60%;
+  color: black !important;
+}
+.Number h1 {
+  font-size: 27rem;
+  margin-top: -11%;
+}
+.Bottom h1 {
+  height: 20%;
+  transform: rotate(180deg);
+  font-size: 12rem;
+  margin-right: 7%;
+  margin-top: -12%;
+}
+.redSuit {
+  color: red;
+}
+#button {
+  margin-left: 43.5%;
+  margin-top: 2%;
+  width: 13%;
+  height: 7vh;
+  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+  font-size: 2rem;
+  border: 2px solid black;
+  box-shadow: 10px 10px 30px black;
+}
+
+#button:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(58, 71, 213, 1) 0%,
+    rgba(0, 210, 255, 1) 100%
+  );
+}
